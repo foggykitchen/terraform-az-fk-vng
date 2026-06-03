@@ -4,6 +4,8 @@ This repository contains a reusable **Terraform/OpenTofu module** for deploying 
 
 It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and serves as the strategic Azure gateway building block for hybrid, VPN, and private interconnect network designs.
 
+Support expectations are documented in [SUPPORT.md](SUPPORT.md).
+
 ---
 
 ## 🎯 Purpose
