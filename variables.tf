@@ -70,7 +70,7 @@ variable "generation" {
   default     = null
 
   validation {
-    condition     = var.generation == null || contains(["Generation1", "Generation2", "None"], var.generation)
+    condition     = var.generation == null ? true : contains(["Generation1", "Generation2", "None"], var.generation)
     error_message = "generation must be one of 'Generation1', 'Generation2', 'None', or null."
   }
 }
